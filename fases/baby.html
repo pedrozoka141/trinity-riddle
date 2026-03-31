@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>TRINITY RIDDLE</title>
+    <link rel="stylesheet" href="../css/style-niveis.css">
+    <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+</head>
+
+<!-- inglês -->
+ 
+<body>
+
+    <div class="nivel-header">
+        <h2>NÍVEL 5</h2>
+        <h1>
+            <em>
+                If I can't hold you like a
+                <span onclick="tocarAudio()" style="cursor: pointer;">[...]</span>
+            </em>
+        </h1>
+    </div>
+
+    <img src="../assets/flor-de-rosto.jpg" alt="flor de rosto" class="enigma-img">
+
+    <div class="input-group">
+        <input type="text" id="respostaUsuario" placeholder="Resposta..." autocomplete="off">
+        <button onclick="verificar()" 
+                data-answer="lover" 
+                data-next="casa.html" 
+                id="btn-verificar">
+            Verificar
+        </button>
+    </div>
+
+    <script src="../js/script.js"></script>
+
+    <audio id="musica">
+        <source src="../assets/musica.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        function tocarAudio() {
+            var audio = document.getElementById("musica");
+            audio.volume = 0.2;
+            audio.play();
+        }
+    </script>
+
+</body>
+</html>

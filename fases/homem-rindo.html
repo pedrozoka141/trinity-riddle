@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>TRINITY RIDDLE</title>
+    <link rel="stylesheet" href="../css/style-niveis.css">
+    <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+</head>
+
+<!-- aes128bitslivrodecodigoseletronico -->
+ 
+<body>
+
+    <div class="nivel-header">
+        <h2>NÍVEL 16</h2>
+        <h1>PRIMEIRO CONCÍLIO</h1>
+    </div>
+
+    <img src="../assets/boaessamusica.jpeg" alt="यदि अहं भवतः स्याम् तर्हि अहं गणितं न करिष्यामि स्म।" class="enigma-img">
+
+    <div class="input-group">
+        <input type="text" id="respostaUsuario" placeholder="Resposta..." autocomplete="off">
+        <button onclick="verificar()" 
+                data-answer="efeso" 
+                data-next="fase17.html" 
+                id="btn-verificar">
+            Verificar
+        </button>
+    </div>
+
+    <audio id="musica">
+        <source src="../assets/musica2.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        function tocarAudio() {
+            var audio = document.getElementById("musica");
+            audio.volume = 0.2;
+            audio.play();
+        }
+    </script>
+
+    <div id="areaSecreta" style="position: fixed; right: 0; top: 0; width: 50px; height: 20vh; text-align: center;">
+        <button id="botaoSecreto" style="opacity: 0; transition: 0.5s; margin-top: 100px; padding: 10px; font-size: 20px;">
+            <a href="dica.html" target="_blank" style="color: #333; text-decoration: none;">?</a>
+        </button>
+    </div>
+
+    <script src="../js/script.js"></script>
+    <script src="../js/botao.js"></script>
+
+</body>
+</html>
