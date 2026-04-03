@@ -20,6 +20,7 @@ function voltarJogo() {
         "thuleanperspective": "homem-rindo.html",           //15
         "efeso": "fut.html",
         "vfc_30100": "nerdthings.html",
+        "amor": "multiplique.html",
         // Adicione as outras fases aqui seguindo o padrão "resposta": "arquivo.html"
     };
 
