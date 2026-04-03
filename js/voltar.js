@@ -12,7 +12,7 @@ function voltarJogo() {
         "metafisica": "KD.html",                            //07
         "musa": "we-are-family.html",                       //08
         "olivia": "bf.html",                                //09
-        "urban_muller": "latim.html",                       //10
+        "paulo": "latim.html",                              //10
         "vibrio_cholerae": "WA-DC.html",                    //11
         "marion_barry": "questra.html",                     //12
         "humberto": "αβ.html",                              //13
