@@ -21,6 +21,7 @@ function voltarJogo() {
         "efeso": "fut.html",
         "vfc_30100": "nerdthings.html",
         "amor": "multiplique.html",
+        "verde_limao_escuro_moderado": "primeiracarta.html",
         // Adicione as outras fases aqui seguindo o padrão "resposta": "arquivo.html"
     };
 
