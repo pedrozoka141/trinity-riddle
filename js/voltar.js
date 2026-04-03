@@ -22,6 +22,7 @@ function voltarJogo() {
         "vfc_30100": "nerdthings.html",
         "amor": "multiplique.html",
         "verde_limao_escuro_moderado": "primeiracarta.html",
+        "ebeorietemethhpiti": "coordenadas.html",
         // Adicione as outras fases aqui seguindo o padrão "resposta": "arquivo.html"
     };
 
