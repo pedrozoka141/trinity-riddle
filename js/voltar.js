@@ -18,6 +18,8 @@ function voltarJogo() {
         "humberto": "αβ.html",                              //13
         "simplicio": "B16.html",                            //14
         "thuleanperspective": "homem-rindo.html",           //15
+        "efeso": "fut.html",
+        "vfc_30100": "nerdthings.html",
         // Adicione as outras fases aqui seguindo o padrão "resposta": "arquivo.html"
     };
 
