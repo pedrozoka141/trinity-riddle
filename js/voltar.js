@@ -23,6 +23,7 @@ function voltarJogo() {
         "amor": "multiplique.html",
         "verde_limao_escuro_moderado": "primeiracarta.html",
         "ebeorietemethhpiti": "coordenadas.html",
+        "bombe": "capital.html",
         // Adicione as outras fases aqui seguindo o padrão "resposta": "arquivo.html"
     };
 
