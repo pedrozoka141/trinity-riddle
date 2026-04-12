@@ -3,28 +3,35 @@ function voltarJogo() {
 
     // Este objeto mapeia a [RESPOSTA] para o [NOME DO ARQUIVO]
     const fases = {
-        "sueca": "o-assassino.html",                        //01
-        "william_afton": "aquilo-que-se-perdeu.html",       //02
-        "elo": "inverta.html",                              //03
-        "armenia": "baby.html",                             //04
-        "lover": "casa.html",                               //05
-        "cidade_maravilhosa": "Ελλάδα.html",                //06
-        "metafisica": "KD.html",                            //07
-        "musa": "we-are-family.html",                       //08
-        "olivia": "bf.html",                                //09
-        "paulo": "latim.html",                              //10
-        "vibrio_cholerae": "WA-DC.html",                    //11
-        "marion_barry": "questra.html",                     //12
-        "humberto": "αβ.html",                              //13
-        "simplicio": "B16.html",                            //14
-        "thuleanperspective": "homem-rindo.html",           //15
-        "efeso": "fut.html",
-        "vfc_30100": "nerdthings.html",
-        "amor": "multiplique.html",
-        "verde_limao_escuro_moderado": "primeiracarta.html",
-        "ebeorietemethhpiti": "coordenadas.html",
-        "bombe": "capital.html",
-        // Adicione as outras fases aqui seguindo o padrão "resposta": "arquivo.html"
+        "sueca": "o-assassino.html",                        
+        "william_afton": "casa.html",
+        "cidade_maravilhosa": "aquilo-que-se-perdeu.html",
+        "elo": "WA-DC.html",
+        "marion_barry": "filme.html",
+        "jesus_cristo_e_o_senhor": "diario.html",
+        "darren_walsh": "baby.html",
+        "lover": "inverta.html",
+        "armenia": "espaço.html",
+        "snake": "Ελλάδα.html",
+        "metafisica": "frequencia.html",
+        "lawliet": "primeiracarta.html",
+        "ebeorietemethhpiti": "latim.html",
+        "vibrio_cholerae": "homem-rindo.html",
+        "efeso": "nerdthings.html",
+        "avila": "KD.html",
+        "musa": "xenofonte.html",
+        "poleus": "αβ.html",
+        "simplicio": "multiplique.html",
+        "verde_limao_escuro_moderado": "we-are-family.html",
+        "olivia": "B16.html",
+        "thuleanperspective": "coordenadas.html",
+        "bombe": "bf.html",
+        "persevere": "fut.html",
+        "vfc_30100": "questra.html",
+        "humberto": "capital.html",
+        "santiago": "codigosdepontos.html",
+        "verdade_absoluta": "tudoemingles.html",
+        "wake_up": "fase30.html",
     };
 
     if (resposta === "") {
