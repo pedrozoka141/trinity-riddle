@@ -12,7 +12,7 @@
 <body>
 
     <div class="nivel-header">
-        <h2>NÍVEL 15</h2>
+        <h2><span onclick="tocarAudio()" style="cursor: pointer;">NÍVEL 15</span></h2>
         <h1>PRIMEIRO CONCÍLIO</h1>
     </div>
 
@@ -27,6 +27,15 @@
             Verificar
         </button>
     </div>
+    
+    <div id="areaSecreta" style="position: fixed; right: 0; top: 0; width: 50px; height: 20vh; text-align: center;">
+        <button id="botaoSecreto" style="opacity: 0; transition: 0.5s; margin-top: 100px; padding: 10px; font-size: 20px;">
+            <a href="dica.html" target="_blank" style="color: #333; text-decoration: none;">?</a>
+        </button>
+    </div>
+
+    <script src="../js/script.js"></script>
+    <script src="../js/botao.js"></script>
 
     <audio id="musica">
         <source src="../assets/musica2.mp3" type="audio/mpeg">
@@ -39,15 +48,6 @@
             audio.play();
         }
     </script>
-
-    <div id="areaSecreta" style="position: fixed; right: 0; top: 0; width: 50px; height: 20vh; text-align: center;">
-        <button id="botaoSecreto" style="opacity: 0; transition: 0.5s; margin-top: 100px; padding: 10px; font-size: 20px;">
-            <a href="dica.html" target="_blank" style="color: #333; text-decoration: none;">?</a>
-        </button>
-    </div>
-
-    <script src="../js/script.js"></script>
-    <script src="../js/botao.js"></script>
 
 </body>
 </html>
