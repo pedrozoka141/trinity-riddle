@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>CONCLUÍDO | TRINITY RIDDLE</title>
+    <link rel="stylesheet" href="../css/style-inicio.css">
+    <link rel="stylesheet" href="../css/style-final.css">
+    <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+    <style>
+        .btn-hall {
+            padding: 10px 20px;
+            background: rgba(52, 152, 219, 0.5);
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            border-radius: 8px;
+        }
+
+        .hall-container {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: 350px;
+            height: 100%;
+            background: #111;
+            color: white;
+            padding: 20px;
+            transition: 0.4s;
+            overflow-y: auto;
+            z-index: 999;
+        }
+
+        .hall-container.ativo {
+            right: 0;
+        }
+
+        .fechar {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+            float: right;
+        }
+</style>
+</head>
+
+<body>
+
+    <div class="container">
+        <span class="trofeu">🏆🏆🏆</span>
+        <h1 class="highlight">PARABÉNS!</h1>
+        
+        <hr style="border: 0; border-top: 1px solid #222; margin: 40px 0;">
+
+        <button id="abrirHall" class="btn-hall">🏆 Hall da Fama</button>
+         <div id="hall" class="hall-container">
+    <button id="fecharHall" class="fechar">✖</button>
+
+    <h2>HALL DA FAMA</h2>
+
+    <div class="team">
+        <div class="member-wrapper">
+            <div class="member">
+                Seu Nome<br>
+                <img src="../assets/hall/foto.jpeg" alt="foto">
+            </div>
+            <div class="social">
+                <img src="../assets/Instagram_logo.png" width="25">
+                <a href="#" target="_blank">seu@</a>
+            </div>
+        </div>
+    </div>
+    <div class="team">
+        <div class="member-wrapper">
+            <div class="member">
+                Seu Nome<br>
+                <img src="../assets/hall/foto2.jpeg" alt="foto2">
+            </div>
+            <div class="social">
+                <img src="../assets/Instagram_logo.png" width="25">
+                <a href="#" target="_blank">seu@</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <p>Caso deseja ter seu nome aqui, mande um e-mail com o assunto "Hall da Fama".</p>
+    </div>
+
+    <script>
+            const abrir = document.getElementById("abrirHall");
+            const fechar = document.getElementById("fecharHall");
+            const hall = document.getElementById("hall");
+
+            abrir.addEventListener("click", () => {
+                hall.classList.add("ativo");
+            });
+
+            fechar.addEventListener("click", () => {
+                hall.classList.remove("ativo");
+            });
+    </script>
+
+</body>
+</html>
